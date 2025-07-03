@@ -1,64 +1,44 @@
-Aerial by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# 🌿 Inspirational Message Generator
 
+A calming, minimalist web app that displays gentle affirmations. Built with TypeScript and styled using the **Aerial** HTML5 UP template, this app allows users to:
 
-This is Aerial, a single page, single screen responsive site template. Real simple.
-Makes heavy use of CSS animation (something I've been messing with a lot lately).
-Should work well as a landing page that just directs folks to your stuff elsewhere
-on the www. Sass sources are also included, so if you've never used Sass and you're
-interested in giving it a try, head on over to sass-lang.com (and if not, you can
-safely delete the "sass/" folder).
+- 🌞 Generate random inspirational messages
+- ⭐ Save favorites to local storage
+- ❌ View and delete saved messages
 
-The scrolling mountainous background was derived from "Icefields" by Ryan Schroeder,
-a talented photographer from Vancouver who graciously released it on Unsplash under
-the CC0 license. Be sure to check out his other stuff over at flickr (link below)
-as well as all the other kickass CC0-licensed images at Unsplash (unsplash.com).
+## 💻 Tech Stack
 
-Questions/comments/issues = just email or find me on Twitter. Have fun!
+- **TypeScript** for logic
+- **HTML5 UP Aerial** template for styling
+- **Local Storage** for persisting favorite messages
+- **No frameworks** — just clean, browser-ready code
 
-AJ
-aj@lkn.io | @ajlkn
+## 🚀 Getting Started
 
+1. Clone this repository  
+2. Run `npm install` to install TypeScript  
+3. Run `npx tsc --watch` to compile `.ts` files  
+4. Open `index.html` in a browser to view the app  
 
-The Scrolling Background:
+All compiled `.js` files are output into the `scripts/` folder.
 
-	This relies entirely on CSS to do its thing, which is cool, but that makes
-	changing it a bit weird/tricky at first. You can still use pretty much any image
-	you want, but for best results make sure yours is:
+---
 
-	- Horizontally tileable.
-	- Wide and short.
-	- About 1500px wide.
-	- Fades to a solid color either at the top of bottom (which is used to fill
-	  the empty space above or below your image).
+## 🪪 License and Credits
 
-	Now, there are two ways to use it: with CSS, or with Sass:
+This project uses the **Aerial** template by [HTML5 UP](https://html5up.net),  
+licensed under the [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/).
 
-	CSS:
+- **Template Author:** [@ajlkn](https://twitter.com/ajlkn) / [html5up.net](https://html5up.net)
+- **Background Image:** “Icefields” by Ryan Schroeder, [CC0 via Unsplash](https://unsplash.com)
+- **Icons:** Font Awesome ([fontawesome.io](https://fontawesome.io))
 
-		Look for this line in css/style.css (line 108 as of this writing):
+You are free to use, modify, and share this project with attribution to both the template author and background image creator.
 
-			background: #348cb2 url("images/bg.jpg") bottom left;
+---
 
-		and use it to set the page background color, URL, and placement of
-		your image. It should be as close to 1500px wide as you can get it.
+## ✨ Future Ideas
 
-	Sass:
-
-		Set the value of $bg to the page background color, URL, and placement
-		of your image. Change $bg-width if your image is something other than
-		1500px wide.
-
-
-Credits:
-
-	Background Image:
-		Ryan Schroeder via Unsplash (unsplash.com - CC0 licensed)
-			"Icefields" (flickr.com/photos/ryanschroeder/11876741703)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+- Add user-generated messages
+- Export favorites to a text file
+- Daily reminder using browser notifications
