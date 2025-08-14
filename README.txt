@@ -42,7 +42,7 @@ I built this for myself — and for anyone who needs a quiet breath in their day
 
 ## 📸 Screenshot
 
-![Daily Grounding preview](preview.png)
+![Daily Grounding preview](https://github.com/AnastasiaTaucci/message-generator/blob/main/preview.png)
 ---
 
 ## 📂 How to Use Locally
