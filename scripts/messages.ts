@@ -41,7 +41,10 @@ export const part2 = [
   "It’s okay to not know.",
   "Change comes in waves.",
   "Your journey is yours.",
-  "Everything unfolds in time."
+  "Everything unfolds in time.",
+  "You don't have to prove anything.",
+  "The quiet moments matter most.",
+  "You are not your productivity."
 ];
 
 export const part3 = [
@@ -64,5 +67,8 @@ export const part3 = [
   "Say yes to peace.",
   "Take what you need.",
   "Feel your enough-ness.",
-  "Let go, a little."
+  "Let go, a little.",
+  "Let yourself pause.",
+  "Sink into the stillness.",
+  "Today can be gentle."
 ];

@@ -1,44 +1,58 @@
-# 🌿 Inspirational Message Generator
+# 🌿 Daily Grounding
 
-A calming, minimalist web app that displays gentle affirmations. Built with TypeScript and styled using the **Aerial** HTML5 UP template, this app allows users to:
-
-- 🌞 Generate random inspirational messages
-- ⭐ Save favorites to local storage
-- ❌ View and delete saved messages
-
-## 💻 Tech Stack
-
-- **TypeScript** for logic
-- **HTML5 UP Aerial** template for styling
-- **Local Storage** for persisting favorite messages
-- **No frameworks** — just clean, browser-ready code
-
-## 🚀 Getting Started
-
-1. Clone this repository  
-2. Run `npm install` to install TypeScript  
-3. Run `npx tsc --watch` to compile `.ts` files  
-4. Open `index.html` in a browser to view the app  
-
-All compiled `.js` files are output into the `scripts/` folder.
+A minimalist one-page affirmation app to help you pause, breathe, and reconnect — especially in a world that moves too fast and often feels overwhelming. As we scroll through perfect lives and polished success on Instagram, this simple tool offers something gentler: a grounding message to bring you back to yourself.
 
 ---
 
-## 🪪 License and Credits
+## ✨ What It Does
 
-This project uses the **Aerial** template by [HTML5 UP](https://html5up.net),  
-licensed under the [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/).
-
-- **Template Author:** [@ajlkn](https://twitter.com/ajlkn) / [html5up.net](https://html5up.net)
-- **Background Image:** “Icefields” by Ryan Schroeder, [CC0 via Unsplash](https://unsplash.com)
-- **Icons:** Font Awesome ([fontawesome.io](https://fontawesome.io))
-
-You are free to use, modify, and share this project with attribution to both the template author and background image creator.
+- Generates calming, grounding messages made of three soft, thoughtful parts
+- Designed as a gentle reminder to pause and breathe
+- No distractions, no features — just stillness
 
 ---
 
-## ✨ Future Ideas
+## 💻 Why I Built It
 
-- Add user-generated messages
-- Export favorites to a text file
-- Daily reminder using browser notifications
+This is a small personal project to:
+- Practice working with HTML5 UP templates
+- Use **plain TypeScript** and compile it manually
+- Get familiar with styling using **plain CSS** (with Tailwind-style structure in mind)
+- Understand how to structure simple one-page apps with real-world layout tools
+
+I built this for myself — and for anyone who needs a quiet breath in their day.
+
+---
+
+## 🔧 Tech Used
+
+- HTML5 UP “Aerial” template ([Creative Commons 3.0 License](https://creativecommons.org/licenses/by/3.0/))
+- TypeScript (compiled to vanilla JS)
+- Plain CSS (from the template)
+
+---
+
+## 🪪 Credits
+
+- **Template**: [Aerial](https://html5up.net/aerial) by [HTML5 UP](https://html5up.net)
+- **Background image**: “Icefields” by Ryan Schroeder via Unsplash (CC0)
+- **Icon**: Font Awesome `spa` icon — used to represent calm & mindfulness
+
+---
+
+## 📸 Screenshot
+
+![Daily Grounding preview](preview.png)
+---
+
+## 📂 How to Use Locally
+
+1. Clone this repo
+2. Run `npm install` (if needed for TypeScript)
+3. Run `npx tsc --watch` to compile
+4. Open `index.html` in a browser
+
+---
+
+_This is a tiny project, but it carries a big feeling._
+
